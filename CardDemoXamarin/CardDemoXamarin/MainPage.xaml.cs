@@ -12,6 +12,7 @@ namespace CardDemoXamarin
 		public MainPage()
 		{
 			InitializeComponent();
+            this.BindingContext = new MainPageViewModel();
 		}
 	}
 }
