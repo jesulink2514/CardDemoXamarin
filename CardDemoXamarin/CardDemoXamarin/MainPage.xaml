@@ -31,7 +31,7 @@
         <Label Text="Card Information" FontAttributes="Bold" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3"
                FontSize="Large"/>
         <Label Text="Enter your credit/debit card information" FontSize="Medium"
-               Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3"/>
+               Grid.Row="1" Grid.Column="0"/>
 
         <Label Text="Number" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3" VerticalOptions="Center"/>
         <Entry Text="{Binding CardNumber, Mode=TwoWay}" Keyboard="Numeric"
